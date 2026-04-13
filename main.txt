@@ -1,0 +1,5 @@
+def sort_dict(dictn):
+    sorted_items = sorted(dictn.items(), key=lambda item: item[1])
+    return dict(sorted_items)
+dictn = {"a": 5, "b": 2, "c": 8, "d": 1}
+print(sort_dict(dictn))
